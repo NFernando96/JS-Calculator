@@ -1,0 +1,81 @@
+body {
+  background-image: linear-gradient(to right, #ecc1a6, #dd6990);
+}
+input[type="text"] {
+  background-color: rgb(205, 243, 230);
+  height: 45px;
+  width: 220px;
+  left: 2px;
+  top: 4px;
+  color: black;
+  text-align: right;
+  position: relative;
+  font-size: 25px;
+  font-weight: 520;
+}
+
+.cal_box {
+  background-color: #812f5c;
+  width: 320px;
+  height: 450px;
+  position: relative;
+  top: 25px;
+  left: 37%;
+  border-radius: 10px;
+}
+
+.cal_display {
+  width: 220px;
+  height: 60px;
+  top: 45px;
+  left: 45px;
+  position: relative;
+}
+
+.button {
+  margin: 6px;
+  width: 39px;
+  height: 39px;
+  border: none;
+  margin-left: 11px;
+  margin-right: 1px;
+  border-radius: 6px;
+  border-top: 3px solid transparent;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.operator {
+  color: white;
+  background-color: #5680e9;
+  border-bottom: black 2px solid;
+  border-top: 2px 303030 solid;
+}
+
+.button.red {
+  color: black;
+  background-color: rgb(243, 41, 41);
+  border-bottom: black 2px solid;
+}
+
+.button.black {
+  color: white;
+  background-color: rgb(0, 0, 0);
+  border-bottom: black 2px solid;
+  border-top: 2px 303030 solid;
+}
+
+.button:hover {
+  color: black;
+  background-color: white;
+}
+
+.cal_keys {
+  position: relative;
+  top: 55px;
+}
+
+h2 {
+  margin-left: 33.5%;
+  margin-top: 40px;
+}

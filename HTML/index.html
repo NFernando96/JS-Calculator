@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="../CSS/style.css" />
+  </head>
+  <body>
+    <div class="heading">
+      <h2>&diams;&diams; Calculator - Using JS , HTML , CSS &diams;&diams;</h2>
+    </div>
+
+    <div class="cal_box">
+      <div class="cal_display">
+        <input type="text" readonly size="18" id="toScr" value="0" />
+        <div class="cal_keys">
+          <input
+            type="button"
+            value="7"
+            class="button black"
+            onclick="setScr('7')"
+          />
+          <input
+            type="button"
+            value="8"
+            class="button black"
+            onclick="setScr('8')"
+          />
+          <input
+            type="button"
+            value="9"
+            class="button black"
+            onclick="setScr('9')"
+          />
+          <input
+            type="button"
+            value="+"
+            class="button operator"
+            onclick="setOperator('+')"
+          />
+          <br />
+          <input
+            type="button"
+            value="4"
+            class="button black"
+            onclick="setScr('4')"
+          />
+          <input
+            type="button"
+            value="5"
+            class="button black"
+            onclick="setScr('5')"
+          />
+          <input
+            type="button"
+            value="6"
+            class="button black"
+            onclick="setScr('6')"
+          />
+          <input
+            type="button"
+            value="-"
+            class="button operator"
+            onclick="setOperator('-')"
+          />
+          <br />
+          <input
+            type="button"
+            value="1"
+            class="button black"
+            onclick="setScr('1')"
+          />
+          <input
+            type="button"
+            value="2"
+            class="button black"
+            onclick="setScr('2')"
+          />
+          <input
+            type="button"
+            value="3"
+            class="button black"
+            onclick="setScr('3')"
+          />
+          <input
+            type="button"
+            value="*"
+            class="button operator"
+            onclick="setOperator('*')"
+          />
+          <br />
+          <input type="button" value="C" class="button red" onclick="reset()" />
+          <input
+            type="button"
+            value="0"
+            class="button black"
+            onclick="setScreen('0')"
+          />
+          <input
+            type="button"
+            value="="
+            class="button red"
+            onclick="getResult()"
+          />
+          <input
+            type="button"
+            value="/"
+            class="button operator"
+            onclick="setOperator('/')"
+          />
+        </div>
+      </div>
+    </div>
+    <script src="../JS/calcutator.js"></script>
+  </body>
+</html>
